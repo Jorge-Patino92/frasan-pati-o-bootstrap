@@ -11,15 +11,15 @@
 /*ANIMACIONES*/
 
 .animacion-derecha {
-    animation: from-right 3s ease-in-out;
+    animation: from-right 1s ease-in-out;
 }
 
 .animacion-izquierda {
-    animation: from-left 3s ease-in-out;
+    animation: from-left 1s ease-in-out;
 }
 
 .aparecer {
-    animation: appear 3s ease-in-out;
+    animation: appear 1s ease-in-out;
 }
 
 /*KEYFRAMES*/
@@ -53,4 +53,20 @@
     100%{
         opacity: 1;
     }
+}
+
+/*HEADER*/
+
+nav {
+    background-color: rgb(144, 12, 63);
+}
+
+/*INDEX*/
+
+.title-idx {
+    color: darkorange;
+}
+
+.btn-idx {
+    background-color: crimson;
 }
