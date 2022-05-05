@@ -1,7 +1,6 @@
 {
   "name": "clear",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/Jorge-Patino92/frasan-pati-o-bootstrap/issues"
   },
-  "homepage": "https://github.com/Jorge-Patino92/frasan-pati-o-bootstrap#readme"
+  "homepage": "https://github.com/Jorge-Patino92/frasan-pati-o-bootstrap#readme",
+  "description": ""
 }
