@@ -76,4 +76,21 @@ nav {
   background-color: rgb(93, 193, 128);
 }
 
+/*PRODUCTOS*/
+.vin-bkg {
+  background-color: red;
+}
+
+.esm-bkg {
+  background-color: blue;
+}
+
+.traf-bkg {
+  background-color: yellow;
+}
+
+.imp-bkg {
+  background-color: green;
+}
+
 /*# sourceMappingURL=style.css.map */

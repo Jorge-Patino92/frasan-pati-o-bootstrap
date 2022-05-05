@@ -1,3 +1,5 @@
+@import "variables";
+
 .header-shadow {
     box-shadow: 0 0.5rem 1 rem rgba(0, 0, 0, 0.15)
 }
@@ -83,4 +85,22 @@ nav {
 
 .mis-bkg {
     background-color: rgb(93, 193, 128);
+}
+
+/*PRODUCTOS*/
+
+.vin-bkg {
+    background-color: map-get($map: $prodcolors, $key: vinil);
+}
+
+.esm-bkg {
+    background-color: map-get($map: $prodcolors, $key: esm);
+}
+
+.traf-bkg {
+    background-color: map-get($map: $prodcolors, $key: traf);
+}
+
+.imp-bkg {
+    background-color: map-get($map: $prodcolors, $key: imper);
 }
