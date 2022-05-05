@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 .header-shadow {
     box-shadow: 0 0.5rem 1 rem rgba(0, 0, 0, 0.15)
@@ -103,4 +104,18 @@ nav {
 
 .imp-bkg {
     background-color: map-get($map: $prodcolors, $key: imper);
+}
+
+/*SERVICIOS*/
+
+.serv-card {
+    @include servstyle
+}
+
+/*CONTACTO*/
+
+.cont-btn {
+    @extend .btn-idx;
+    color: white;
+    font-weight: bold;
 }
