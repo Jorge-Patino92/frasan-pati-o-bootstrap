@@ -1,0 +1,17 @@
+keywords agregadas:
+pintura, colores, comprar pintura, desarrollar colores, frasan colors
+
+descripción
+index: "Empresa dedicada a la fabricación de pinturas y recubrimientos"
+nosotros: "Valores, misión y visión de nuestra compañía"
+servicios: "Servicios ofrecidos adicional a las pinturas"
+productos: "Adquiera la  linea de productos de Frasan Colors"
+contacto: "Contactenos para información de nuestras pinturas"
+
+cambios en titulos
+Frasan Colors | Home
+Frasan Colors | Nosotros
+Frasan Colors | Servicios
+Frasan Colors | Productos
+Frasan Colors | Contacto
+
