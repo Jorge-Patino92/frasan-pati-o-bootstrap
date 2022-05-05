@@ -1,76 +1,70 @@
 .header-shadow {
-    box-shadow: 0 0.5rem 1 rem rgba(0, 0, 0, 0.15)
+  box-shadow: 0 0.5rem 1 rem rgba(0, 0, 0, 0.15);
 }
 
 /*GRADIENTES*/
-
 .gradiente-nav {
-    background-color: linear-gradient (to right, white, purple);
+  background-color: linear-gradient to right, white, purple;
 }
 
 /*ANIMACIONES*/
-
 .animacion-derecha {
-    animation: from-right 1s ease-in-out;
+  animation: from-right 1s ease-in-out;
 }
 
 .animacion-izquierda {
-    animation: from-left 1s ease-in-out;
+  animation: from-left 1s ease-in-out;
 }
 
 .aparecer {
-    animation: appear 1s ease-in-out;
+  animation: appear 1s ease-in-out;
 }
 
 /*KEYFRAMES*/
-
 @keyframes from-right {
-    0%{
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
-
 @keyframes from-left {
-    0%{
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
-
 @keyframes appear {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
 /*HEADER*/
-
 nav {
-    background-color: rgb(144, 12, 63);
+  background-color: rgb(144, 12, 63);
 }
 
 /*INDEX*/
-
 .title-idx {
-    color: darkorange;
+  color: darkorange;
 }
 
 .btn-idx {
-    background-color: grey;
+  background-color: grey;
 }
 
 .card-bkg {
-    background-color: rgb(55, 57, 84);
+  background-color: rgb(55, 57, 84);
 }
+
+/*# sourceMappingURL=style.css.map */
