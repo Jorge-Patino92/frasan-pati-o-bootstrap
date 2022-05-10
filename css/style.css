@@ -57,10 +57,11 @@ nav {
 /*INDEX*/
 .title-idx {
   color: darkorange;
+  font-weight: bold;
 }
 
 .btn-idx, .cont-btn {
-  background-color: grey;
+  background-color: rgb(46, 43, 46);
 }
 
 .card-bkg {
@@ -69,11 +70,11 @@ nav {
 
 /*NOSOTROS*/
 .val-bkg {
-  background-color: rgb(30, 208, 201);
+  background-color: rgb(59, 94, 57);
 }
 
 .mis-bkg {
-  background-color: rgb(93, 193, 128);
+  background-color: rgb(59, 94, 57);
 }
 
 /*PRODUCTOS*/
@@ -95,7 +96,7 @@ nav {
 
 /*SERVICIOS*/
 .serv-card {
-  background-color: rgb(238, 159, 26);
+  background-color: rgb(90, 155, 141);
   color: white;
 }
 
