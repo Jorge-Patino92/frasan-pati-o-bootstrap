@@ -54,6 +54,11 @@ nav {
   background-color: rgb(144, 12, 63);
 }
 
+/*FOOTER*/
+.text-footer {
+  color: rgb(144, 12, 63);
+}
+
 /*INDEX*/
 .title-idx {
   color: darkorange;
